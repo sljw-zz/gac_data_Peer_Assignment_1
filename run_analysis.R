@@ -54,4 +54,4 @@ for (s in 1:numSubjects) {
         row = row+1
     }
 }
-write.table(result, "independent_dataset.txt")
+write.table(result, "independent_dataset.txt", row.name=FALSE)
